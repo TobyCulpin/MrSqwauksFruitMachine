@@ -29,7 +29,7 @@ function spin()
     final.push(spinReel("r3"));
 
     //Checks if all of the reels match up
-    if (final[0] == final[1] || final[1] == final[2])//Winner
+    if (final[0] == final[1] && final[1] == final[2])//Winner
     {
         //Displays BigWin.png
         document.getElementById("status").src = "images/BigWin.png";
