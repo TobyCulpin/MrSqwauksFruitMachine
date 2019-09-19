@@ -1,0 +1,104 @@
+#balanceLine
+{
+    position: absolute;
+    display: inline-block;
+    
+    top: 30px;
+    left: 600px;
+}
+
+#balanceText
+{
+    display: inline;
+}
+
+#balanceValue
+{
+    display: inline;
+}
+
+#betLine
+{
+    position: absolute;
+    display: inline-block;
+    
+
+    top: 60px;
+    left: 600px;
+}
+
+#betText
+{
+    display: inline;
+}
+
+#betValue
+{
+    display: inline;
+}
+
+#payoutLine
+{
+    position: absolute;
+    display: inline-block;
+    
+
+    top: 30px;
+    left: 850px;
+}
+
+#payoutText
+{
+    display: inline;
+}
+
+#payoutValue
+{
+    display: inline;
+}
+
+#winLine
+{
+    position: absolute;
+    display: inline-block;
+    
+
+    top: 60px;
+    left: 850px;
+}
+
+#winText
+{
+    display: inline;
+}
+
+#winValue
+{
+    display: inline;
+}
+
+#buttons
+{
+    position: absolute;
+    display: inline-block;
+
+    top: 100px;
+    left: 630px;
+
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none;
+}
+#buttons p
+{
+    display: inline;
+    padding: 10px;
+}
+
+#buttons p:hover
+{
+    color: red;
+}
